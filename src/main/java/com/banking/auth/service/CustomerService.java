@@ -15,6 +15,7 @@ public interface CustomerService {
 	Customers sendOtp(Customers record);
 
 	int ResetPassword(String new_password,String customer_email);
+	System.out.println("");
 	
 		
 	
